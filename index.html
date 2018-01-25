@@ -8,6 +8,7 @@
     <title>TodoList</title>
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="style.css">
+    <script src="common.js"></script>
 </head>
 
 <body>
@@ -46,7 +47,8 @@
         window.document.querySelector(".todo-list").append = "<li>1111</li>";
     }
     window.onload = function() {
-        
+        var f = new fnInit();
+        f.table();
     }
 </script>
 
